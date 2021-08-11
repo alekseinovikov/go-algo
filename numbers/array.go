@@ -1,4 +1,4 @@
-package randomization
+package numbers
 
 import (
 	"math/rand"
