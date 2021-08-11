@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := numbers.Power(3, 12)
+	result := numbers.SplitOntoFactors(99)
 
 	fmt.Println(result)
 }
