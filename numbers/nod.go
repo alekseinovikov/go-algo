@@ -9,13 +9,11 @@ func FindNod(a int, b int) int {
 }
 
 func findNod(a int, b int) int {
-	if b == 0 {
-		return a
+	for b != 0 {
+		rest := a % b
+		a = b
+		b = rest
 	}
 
-	rest := a % b
-	a = b
-	b = rest
-
-	return findNod(a, b)
+	return a
 }
