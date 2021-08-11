@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	result := numbers.FindNod(27888, 12642)
+	result := numbers.Power(3, 12)
+
 	fmt.Println(result)
 }
