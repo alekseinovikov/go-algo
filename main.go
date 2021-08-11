@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := numbers.SplitOntoFactors(99)
+	result := numbers.FindPrimes(3571)
 
 	fmt.Println(result)
 }
